@@ -1,0 +1,14 @@
+table,th,tr,td{
+    margin-left: 400px;
+    margin-top: 150px;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: $dark-color;
+    color: $bright-color;
+    padding: 10px;
+}
+
+tr{
+    height: 30px;
+}

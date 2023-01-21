@@ -1,0 +1,72 @@
+@import 'config';
+@import 'buttons';
+@import 'vaccination';
+@import 'wellness';
+@import 'contact';
+@import 'video';
+@import 'form';
+
+*{
+    box-sizing: border-box;
+  }
+
+body{
+    background-image: $bg-image;
+    background-attachment: fixed;
+    font-family: $font-stack;
+}
+
+.MainPage{
+    h1{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $dark-color;
+    }
+    ul{
+        display:flex;
+        list-style-type: none;
+    }
+    li{
+        padding: 8px;
+        font-size: 110%;
+    }
+    li a{
+        color: $bright-color;
+    }
+
+    a:hover,a:visited, a:link, a:active{
+        text-decoration: none;
+    }
+
+    .grid-item1{
+        // background-color: blue;
+        float: right;
+        padding: 7%;
+        margin-top: 2%;
+    }
+
+    .grid-item2{
+        padding: 2%;
+        
+        img{
+            border: 6px groove black;
+        }
+
+    }
+
+    footer{
+        @extend nav;
+        padding: 1.5%;
+        color: $bright-color;
+        justify-content: center;
+    }
+}

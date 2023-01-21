@@ -1,0 +1,40 @@
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+.Vaccines {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: $dark-color;
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .description{
+        font-size: 20px;;
+    }
+}
+
+$image-alignment: (
+    1,
+    2,
+    3,
+    4,
+    5
+);
+
+@each $image in $image-alignment {
+    .vac-#{$image} {
+        padding-top: 35px;
+        width:400px;
+        height:400px;
+        background-color: $dark-color;
+        color: $bright-color;
+        text-align: center;
+        line-height: 25px;
+    }
+}

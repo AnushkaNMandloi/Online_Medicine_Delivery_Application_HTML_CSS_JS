@@ -1,0 +1,21 @@
+%btn{
+    display: inline-block;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 3px;
+    color: $bright-color;
+    background-color: $dark-color;
+
+    &:hover{
+        transform: scale(.98);
+    }
+}
+
+.btn-primary{
+    @extend %btn;
+
+    a:hover,a:visited, a:link, a:active{
+        text-decoration: none;
+    }
+
+}

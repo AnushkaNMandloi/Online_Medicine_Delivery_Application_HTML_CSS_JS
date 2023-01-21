@@ -1,0 +1,109 @@
+body{
+    background-image: url('images/medicine-image.jpeg');
+    background-attachment: fixed;
+}
+h1{
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+ul{
+    margin-left: 10px;;
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(10, 49, 92);
+}
+li a{
+    display:block;
+    padding:8px;
+    border: 1px solid darkgray;
+    color:white;
+}
+#A{
+    margin-left:10px;
+    background-color: darkgrey;
+    height:180px;
+    padding-bottom: 20px;
+}
+h3{
+    text-align: center;
+}
+input{
+    margin-left: 700px;
+    background-color: rgb(10, 49, 92);
+    color:white;
+    padding-right:10px;
+}
+#C{
+    margin-top: 60px;
+    margin-left:10px;
+    margin-right: 50px;
+    width: 10px;
+    height: 10px;
+}
+#B{
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 600px;
+    margin-right: 10px;
+    margin-left: 750px;
+}
+h2{
+    font-size: 30px;
+    text-decoration: underline;
+}
+p{
+    font-size: 22xpx;
+}
+footer{
+    margin-top: 40px;
+}
+.Vaccines{
+    display:flex;
+}
+.vac{
+    float:left;
+    margin-left: 10px;
+}
+.description{
+    text-align: center;
+}
+#Vaccine-Information{
+    margin-top: 400px;
+    text-align: center;
+}
+.Medicines{
+    display:flex;
+}
+.Meds{
+    float:left;
+    margin-left: 10px;
+}
+.note{
+    margin-top: 900px;
+}
+table,th,tr,td{
+    margin-left: 400px;
+    margin-top: 150px;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr{
+    height: 30px;
+}
+#fname{
+    background-color:white;
+}
+#lname{
+    background-color:white;
+}
+#email{
+    background-color:white;
+}
+.video{
+    margin-left: 450px;
+}
